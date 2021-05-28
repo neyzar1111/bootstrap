@@ -4,3 +4,33 @@ body{
 p{
     color: #909ca7;
 }
+.my-nav{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.my-nav h1{
+    font-size: 2rem ;
+}
+.my-nav a{
+    color:rgb(179, 200, 218);
+    text-decoration: none;
+}
+.my-cont{
+    padding-left: 200px;
+    width: 100%;
+}
+
+@media  screen and (max-width: 768px) {
+    .my-nav {
+        display: none;
+    }
+    .my-cont{
+        padding-left: 0;
+
+    }
+}
