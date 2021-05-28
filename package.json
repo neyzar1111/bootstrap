@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap_1",
+  "version": "1.0.0",
+  "description": "bootstap challenge in becode",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bootstrap",
+    "html",
+    "css"
+  ],
+  "author": "Aichurok",
+  "license": "ISC"
+}
